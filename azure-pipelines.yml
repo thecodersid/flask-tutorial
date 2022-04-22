@@ -7,7 +7,7 @@ trigger:
 - master
 
 pool:
-  vmImage: ubuntu-latest
+  name: 'Apprimity Self Hosted Pool'
 strategy:
   matrix:
     Python27:
